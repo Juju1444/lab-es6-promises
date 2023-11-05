@@ -27,12 +27,7 @@
 
 
 
-// // Iteration 1 - using callbacks
-// getInstruction('mashedPotatoes', 0, (step0) => {
-//   document.querySelector("#mashedPotatoes").innerHTML += `<li>${step0}</li>`
-
-//هذا الحل قاعد افهم وش سالفه
-
+//تطبيق
 
 
 
@@ -77,7 +72,8 @@ getInstruction(
                     document.querySelector(
                       "#mashedPotatoes"
                     ).innerHTML += `<li>${step5}</li>`;
-                    // Bonus 1
+
+                    // Bonus 1//
                     document
                       .querySelector("#mashedPotatoesImg")
                       .removeAttribute("hidden");
@@ -96,6 +92,7 @@ getInstruction(
   },
   (error) => console.log(error)
 );
+
 
 // Iteration 2 - using promises
 obtainInstruction("steak", 0)
@@ -203,14 +200,3 @@ Promise.all([pr0, pr1, pr2, pr3, pr4, pr5, pr6])
 
 
 
-
-
-
-// Iteration 2 - using promises
-// ...
-
-// Iteration 3 using async/await
-// ...
-
-// Bonus 2 - Promise all
-// ...
