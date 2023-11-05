@@ -2,6 +2,7 @@
 
 # LAB | #Promise me a dinner
 
+
 ## Introduction
 
 Due to the asynchronous nature of JavaScript, promises and callbacks are very important. Both allow us to control the flow of the operations and execute tasks in sequence.
